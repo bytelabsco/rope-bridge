@@ -1,0 +1,30 @@
+.block{
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 50px;
+
+    &.stairs-left {
+        background: url('../assets/stairs-left.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &.stairs-right {
+        background: url('../assets/stairs-right.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &.slab-top {
+        background: url('../assets/slab-top.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    &.slab-bottom {
+        background: url('../assets/slab-bottom.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
